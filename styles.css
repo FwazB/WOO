@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+
+#bluesection {
+  background-color: #00aeef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+}
+#bluesection a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#bluesection a:hover {
+  background-color: #333333;
+}
+
+#bluesection img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #bluesection img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  #bluesection img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
